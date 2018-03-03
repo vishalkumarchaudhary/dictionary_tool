@@ -4,10 +4,10 @@ block_cipher = None
 
 
 a = Analysis(['dictionary.py'],
-             pathex=['/home/mabrin/dictionary'],
+             pathex=['/home/mabrin/dictionary_tool'],
              binaries=[],
              datas=[],
-             hiddenimports=[],
+             hiddenimports=['pyperclip'],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
@@ -26,4 +26,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True )
+          console=False )
