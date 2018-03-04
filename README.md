@@ -13,7 +13,7 @@ run the binary program
 install 
 ``` sudo pip install pyperclip```
 
-```sudo ./dictionary```
+```sudo ./dist/dictionary```
 
 STEPS TO USE :
 ^^^^^^^^^^^^^^^
