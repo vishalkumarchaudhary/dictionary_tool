@@ -197,7 +197,6 @@
   ('platform', '/usr/lib/python2.7/platform.py', 'PYMODULE'),
   ('traceback', '/usr/lib/python2.7/traceback.py', 'PYMODULE'),
   ('_threading_local', '/usr/lib/python2.7/_threading_local.py', 'PYMODULE'),
-  ('threading', '/usr/lib/python2.7/threading.py', 'PYMODULE'),
   ('struct', '/usr/lib/python2.7/struct.py', 'PYMODULE'),
   ('StringIO', '/usr/lib/python2.7/StringIO.py', 'PYMODULE'),
   ('__future__', '/usr/lib/python2.7/__future__.py', 'PYMODULE'),
@@ -503,8 +502,8 @@
   ('copy_reg', '/usr/lib/python2.7/copy_reg.py', 'PYMODULE'),
   ('sre_constants', '/usr/lib/python2.7/sre_constants.py', 'PYMODULE'),
   ('re', '/usr/lib/python2.7/re.py', 'PYMODULE'),
-  ('warnings', '/usr/lib/python2.7/warnings.py', 'PYMODULE'),
   ('ctypes.wintypes', '/usr/lib/python2.7/ctypes/wintypes.py', 'PYMODULE'),
+  ('warnings', '/usr/lib/python2.7/warnings.py', 'PYMODULE'),
   ('pyautogui',
    '/usr/local/lib/python2.7/dist-packages/pyautogui/__init__.py',
    'PYMODULE'),
@@ -2270,4 +2269,5 @@
   ('timeit', '/usr/lib/python2.7/timeit.py', 'PYMODULE'),
   ('keyboard._keyboard_event',
    '/usr/local/lib/python2.7/dist-packages/keyboard/_keyboard_event.py',
-   'PYMODULE')])
+   'PYMODULE'),
+  ('threading', '/usr/lib/python2.7/threading.py', 'PYMODULE')])

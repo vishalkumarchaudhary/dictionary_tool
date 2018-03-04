@@ -1,5 +1,5 @@
 ('/home/mabrin/dictionary_tool/dist/dictionary',
- False,
+ True,
  False,
  False,
  None,
@@ -773,7 +773,7 @@
  [],
  False,
  False,
- 1520076096,
+ 1520107022,
  [('run',
    '/usr/local/lib/python2.7/dist-packages/PyInstaller/bootloader/Linux-64bit/run',
    'EXECUTABLE')])
