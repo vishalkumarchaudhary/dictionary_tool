@@ -1,5 +1,4 @@
-from threading import Thread
-
+## program for online dictionary
 from keyboard import is_pressed
 
 from pyperclip import paste
@@ -80,9 +79,8 @@ try :
 				# formating Output Content
 				for key in meaning:
 					output += key + " : \n " + '\n'.join(meaning[key]) + '\n'
-
-				threadObj = Thread(target=show_window, args=[current_query ,output])
-				threadObj.start()
+				
+				show_window(current_query ,output)
 					
 except:
 	print("\n\nBye Bye !!!\nHope You Got Enough Knowledge Today :) \n\n")

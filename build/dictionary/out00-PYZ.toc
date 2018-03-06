@@ -197,6 +197,7 @@
   ('platform', '/usr/lib/python2.7/platform.py', 'PYMODULE'),
   ('traceback', '/usr/lib/python2.7/traceback.py', 'PYMODULE'),
   ('_threading_local', '/usr/lib/python2.7/_threading_local.py', 'PYMODULE'),
+  ('threading', '/usr/lib/python2.7/threading.py', 'PYMODULE'),
   ('struct', '/usr/lib/python2.7/struct.py', 'PYMODULE'),
   ('StringIO', '/usr/lib/python2.7/StringIO.py', 'PYMODULE'),
   ('__future__', '/usr/lib/python2.7/__future__.py', 'PYMODULE'),
@@ -2269,5 +2270,4 @@
   ('timeit', '/usr/lib/python2.7/timeit.py', 'PYMODULE'),
   ('keyboard._keyboard_event',
    '/usr/local/lib/python2.7/dist-packages/keyboard/_keyboard_event.py',
-   'PYMODULE'),
-  ('threading', '/usr/lib/python2.7/threading.py', 'PYMODULE')])
+   'PYMODULE')])
